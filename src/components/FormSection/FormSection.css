@@ -1,0 +1,95 @@
+.form-section {
+
+    background: #000000;
+    padding-right: 2rem;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.right-h1 {
+    margin-top: 3.6rem;
+    margin-left: 2rem;
+width: 200px;
+height: 80px;
+
+font-family: 'Single Day';
+font-style: normal;
+font-weight: 400;
+font-size: 67px;
+line-height: 139.69%;
+/* identical to box height, or 94px */
+
+color: #72DB73;
+}
+
+#create-ac-text {
+    margin-right : -2rem;
+    margin-top: 0rem;
+width: 292px;
+height: 27px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 139.69%;
+/* or 35px */
+
+color: #FFFFFF;
+
+}
+
+.email-right {
+    margin-right: 8rem;
+    gap: 2rem;
+width: 74.18px;
+height: 27.82px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 28.8485px;
+line-height: 139.69%;
+/* or 40px */
+
+color: #FFFFFF;
+
+}
+
+.vl {
+    margin-top: 5px;
+width: 20px;
+height: 30px;
+
+border: 1px solid #72DB73;
+}
+
+.right-bottom-p {
+    max-width: 400px;
+    margin-top: 3rem;
+    margin-right: rem;
+width: 518px;
+height: 53px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 141.7%;
+/* or 26px */
+
+letter-spacing: 0.02em;
+
+color: #7C7C7C;
+}
+
+.right-bottom-p span {
+    color: #72DB73;
+}
+
+
+
+
+

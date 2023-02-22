@@ -1,0 +1,64 @@
+.banner {
+    background-image: url(./assets/image-13.png);
+    background-size: cover;
+    margin-left: -1rem;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: -16px; */
+}
+
+.upr-text-btn {
+    display: flex;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+
+.upr-text-btn h3 {
+    margin-top: 4rem;
+width: 370px;
+height: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 108.69%;
+/* or 30px */
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.upr-text-btn button {
+    border: none;
+    margin-top: 4rem;
+width: 146px;
+height: 42px;
+
+background: #72DB73;
+border-radius: 33px;
+}
+
+.upr-text-btn span {
+    color: #FFFFFF;
+}
+
+.banner h1 {
+    margin-left: 4rem;
+    margin-bottom: 6rem;
+width: 695px;
+height: 143px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 141.69%;
+/* or 78px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}

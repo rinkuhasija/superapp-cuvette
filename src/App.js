@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LeftBanner from './components/LeftBanner/LeftBanner';
+import FormSection from './components/FormSection/FormSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
+            <LeftBanner />
+
+          </div>
+
+          <div className="col-md-6 col-sm-12">
+            <FormSection />
+
+          </div>
+
+
+        </div>
+
+      </div>
     </div>
   );
 }
