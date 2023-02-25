@@ -1,28 +1,22 @@
 
 import './App.css';
+import Register from './pages/Register/Register';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LeftBanner from './components/LeftBanner/LeftBanner';
-import FormSection from './components/FormSection/FormSection';
 
 function App() {
   return (
-    <div className='app'>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-6 col-sm-12">
-            <LeftBanner />
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path='/select-category' element={''}/>
+        </Routes>
+      </BrowserRouter>
 
-          </div>
-
-          <div className="col-md-6 col-sm-12">
-            <FormSection />
-
-          </div>
+    </>
 
 
-        </div>
-
-      </div>
-    </div>
   );
 }
 
