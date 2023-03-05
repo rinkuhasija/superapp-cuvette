@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/superapp-cuvette/static/css/main.b8b8daa0.css",
-    "main.js": "/superapp-cuvette/static/js/main.f5e4fe0e.js",
+    "main.js": "/superapp-cuvette/static/js/main.eacc9169.js",
     "static/media/image-13.png": "/superapp-cuvette/static/media/image-13.122fc9d93a27e3d73f61.png",
     "index.html": "/superapp-cuvette/index.html",
     "main.b8b8daa0.css.map": "/superapp-cuvette/static/css/main.b8b8daa0.css.map",
-    "main.f5e4fe0e.js.map": "/superapp-cuvette/static/js/main.f5e4fe0e.js.map"
+    "main.eacc9169.js.map": "/superapp-cuvette/static/js/main.eacc9169.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b8daa0.css",
-    "static/js/main.f5e4fe0e.js"
+    "static/js/main.eacc9169.js"
   ]
 }
