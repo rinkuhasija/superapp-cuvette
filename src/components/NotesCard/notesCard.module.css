@@ -1,0 +1,40 @@
+.notesCard {
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    width: 25vw;
+    height: 45vh;
+
+    background: #F1C75B;
+    border-radius: 19px;
+}
+
+.notesCard h3 {
+    margin-left: 2rem; 
+    width: 184px;
+    height: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 105.69%;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+
+.notesCard p {
+    width: 342px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 105.69%;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
