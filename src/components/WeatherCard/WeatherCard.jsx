@@ -31,7 +31,7 @@ function WeatherCard() {
   useEffect(() => {
 
      const fetchWeather = async() => {
-        const result = await fetch(`http://api.weatherapi.com/v1/current.json?key=41b8bdb0a2634000b3c174342230403&q=indore&aqi=yes`).then( async(data) => await data.json())
+        const result = await fetch(`https://api.weatherapi.com/v1/current.json?key=41b8bdb0a2634000b3c174342230403&q=indore&aqi=yes`).then( async(data) => await data.json())
         const temperature = result.current.temp_c
         // console.log(result);
         // console.log(temperature);
