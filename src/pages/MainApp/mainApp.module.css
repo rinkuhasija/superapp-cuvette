@@ -1,0 +1,15 @@
+.mainApp {
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    margin-left: 3rem;
+    display: flex;
+    gap: 13vw;
+}
+
+.separate {
+    margin-top: -13vh;
+    margin-left: 4rem;
+}
