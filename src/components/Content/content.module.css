@@ -1,0 +1,73 @@
+.movies {
+    width: 100vw;
+    height: 100vh;
+    background: #000
+}
+
+.topText {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topText h3 {
+    margin-left: 4rem;
+    margin-top: 3rem;
+    width: 169px;
+    height: 66px;
+
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47.3333px;
+    line-height: 139.69%;
+    color: #72DB73;
+}
+
+.topText div {
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.h3 {
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 560px;
+    height: 42px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.4244px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.categoryOne {
+    width: 50vw;
+    height: 18vh;
+}
+
+.categoryOne h3 {
+    margin-left: 6rem;
+    margin-top: 1rem;
+    width: 90px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #878787;
+}
+
+.imagesFlex {
+    margin: 1rem;
+    margin-left: 7vw;
+    display: flex;
+    gap: 1rem;
+    height: 130px;
+    color: #fff;
+}

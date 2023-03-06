@@ -1,0 +1,43 @@
+.categoryChip {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+    width: 193px;
+    height: 52px;
+    background: #148A08;
+    border-radius: 31px;
+}
+
+.categoryChip p {
+    margin-top: 11px;
+    width: 112px;
+    height: 22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.1429px;
+    line-height: 105.69%;
+    /* or 27px */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.categoryChip div {
+    margin-top: 12px;
+    width: 16.93px;
+    height: 22.57px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.3334px;
+    line-height: 105.69%;
+    /* or 28px */
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: #085C00;
+    
+}
