@@ -7,7 +7,12 @@ import LeftBanner from './components/LeftBanner/LeftBanner';
 function App() {
   return (
     <>
-      <Register />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Register />} />
+          <Route path='/select-category' element={''}/>
+        </Routes>
+      </BrowserRouter>
 
     </>
 

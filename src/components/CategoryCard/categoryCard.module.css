@@ -1,0 +1,127 @@
+.card {
+    
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    /* background: #FF5209; */
+    
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cardActive {
+    border: 6px solid #11B800;  
+}
+
+
+
+.card p {
+    margin: 10px;
+    margin-left: 16px;
+    width: 111px;
+    height: 47px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.imgBack {
+    width: 178px;
+    height: 100px;
+    margin: 7px;
+    margin-top: 20px;
+    margin-left: 11px;
+
+    /* width: 209.62px;
+height: 118px; */
+
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.55));
+    border-radius: 11.6612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.imgOne {
+    background: url(../../assets/image-1.png);
+}
+
+.imgTwo {
+    background: url(../../assets/image-2.png);
+}
+
+.imgThree {
+    background: url(../../assets/image-3.png);
+}
+
+.imgFour {
+    background: url(../../assets/image-4.png);
+}
+
+.imgFive {
+    background: url(../../assets/image-5.png);
+}
+
+.imgSix {
+    background: url(../../assets/image-6.png);
+}
+
+.imgSeven {
+    background: url(../../assets/image-7.png);
+}
+
+.imgEight {
+    background: url(../../assets/image-8.png);
+}
+
+.imgNine {
+    background: url(../../assets/image-9.png);
+}
+
+
+.cardOne {
+    background-color: tomato;
+}
+
+.cardTwo {
+    background-color: #D7A4FF;
+}
+
+.cardThree {
+    background-color: #148A08 ;
+}
+
+.cardFour {
+    background-color: #84C2FF ;
+}
+
+.cardFive {
+    background-color: #912500 ;
+}
+
+.cardSix {
+    background-color: #7358FF ;
+}
+
+.cardSeven {
+    background-color: #FF4ADE;
+}
+
+.cardEight {
+    background-color: #E61E32 ;
+}
+
+.cardNine {
+    background-color: #6CD061 ;
+}
+
+.imgActive {
+    margin-left: 4px !important;
+}
+
