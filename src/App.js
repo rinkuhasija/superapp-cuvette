@@ -7,7 +7,7 @@ import Onboarding from './pages/Onboarding/Onboarding';
 import MainApp from './pages/MainApp/MainApp';
 import NotesCard from './components/NotesCard/NotesCard';
 import TimerCard from './components/TimerCard/TimerCard';
-import Movies from './pages/Movies/Movies';
+// import Movies from './pages/Movies/Movies';
 import Content from './components/Content/Content';
 import axios from 'axios';
 
