@@ -1,0 +1,125 @@
+.weatherCard {
+    margin-top: -4rem;
+    margin-left: 2rem;
+    width: 47vw;
+    height: 6vh;
+}
+
+.dateTime {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.5rem; */
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background: #FF4ADE;
+    border-radius: 33.428px 33.428px 0px 0px;
+}
+
+.dateTime h2 {
+    margin-top: 0.5rem;
+    margin-left: 10vw;
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vh;
+    line-height: 141.69%;
+    /* identical to box height, or 78px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/* .dateTime h4 {
+    margin-top: -0.2rem;
+    margin-left: 13vw;
+    width: auto;
+    height: 78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 141.69%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+} */
+
+
+.weatherData {
+    display: flex;
+    gap: 2rem;
+    width: auto;
+    height: 20vh;
+    background: #101744;
+    /* border-radius: 33.428px; */
+    border-radius: 0 0 33.428px 33.428px;
+}
+
+.celcius {
+    margin-top: 2rem;
+    width: auto;
+    height: auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+
+}
+
+.rain {
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    width: auto;
+    height: 78.22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+}
+
+.rain img {
+    margin-left: 1.5rem;
+}
+
+.wind {
+    margin-top: 1.9rem;
+    margin-right: 1.2rem;
+    width: auto;
+    height: 78.22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+}
+
+/* .weatherCard:div(:nth-child(3)) {
+    
+} */
+
+.line {
+    margin-top: 4rem;
+    width: 79.37px;
+    height: 0px;
+    border: 1.36662px solid #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 1400px) {
+
+    .weatherCard {
+        margin-top: -10rem;
+        margin-left: 2rem;
+
+    }
+    
+  }
