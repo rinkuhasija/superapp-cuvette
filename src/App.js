@@ -26,9 +26,9 @@ function App() {
           <Route path='/select-category' element={''} />
           <Route path='/' element={<Register />} />
           <Route path='/home' element={<MainApp />} />
-          <Route path='/notes' element={<NotesCard />} />
-          <Route path='/timer' element={<TimerCard />} />
-          <Route path='/movies' element={<Movies />} />
+          {/* <Route path='/notes' element={<NotesCard />} /> */}
+          {/* <Route path='/timer' element={<TimerCard />} /> */}
+          {/* <Route path='/movies' element={<Movies />} /> */}
           <Route path='/content' element={<Content />} />
         </Routes>
       </BrowserRouter>

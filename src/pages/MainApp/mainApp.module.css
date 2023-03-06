@@ -6,10 +6,11 @@
 .container {
     margin-left: 3rem;
     display: flex;
-    gap: 13vw;
+    gap: 3vw;
 }
 
 .separate {
+    display: flex;
     margin-top: -13vh;
     margin-left: 4rem;
 }

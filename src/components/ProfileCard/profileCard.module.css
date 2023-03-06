@@ -1,20 +1,26 @@
 .profileCard {
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     background-color: #5746EA;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     border-radius: 33.428px;
-    width: 40vw;
+    width: 33vw;
     height: 50vh;
+}
+
+.profileContent {
+    margin-left: 0rem;
+    width: 21vw;
+    height: 20vh;
 }
 
 .profileImage {
     margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 209.36px;
-    height: auto;
+    width: 30vw;
+    height: 30vh;
 
     background: url(../../assets/profileImg.png);
     border: 5.27811px solid #FFFFFF;
@@ -53,11 +59,11 @@
 
 .selectedCategories {
     /* border: solid red; */
-    margin-top: 3.5rem;
-    width: 480px;
-    height: 200px;
+    margin-top: 1.3rem;
+    width: 19vw;
+    height: 20vh;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    row-gap: 0px;
+    /* row-gap: 5px; */
 }

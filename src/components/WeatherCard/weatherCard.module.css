@@ -1,7 +1,7 @@
 .weatherCard {
-    margin-top: -4rem;
-    margin-left: 2rem;
-    width: 47vw;
+    margin-top: -2rem;
+    margin-left: 2.2rem;
+    width: 35vw;
     height: 6vh;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .wind {
-    margin-top: 1.9rem;
+    margin-top: 1.5rem;
     margin-right: 1.2rem;
     width: auto;
     height: 78.22px;
@@ -97,7 +97,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 39px;
+    font-size: 35px;
     line-height: 139.69%;
     color: #FFFFFF;
 }
