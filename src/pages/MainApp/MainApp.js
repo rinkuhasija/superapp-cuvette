@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import NewsCard from '../../components/NewsCard/NewsCard'
 import NotesCard from '../../components/NotesCard/NotesCard'
 import ProfileCard from '../../components/ProfileCard/ProfileCard'
@@ -20,15 +21,19 @@ function MainApp() {
 
         <NewsCard />
 
-        
+
 
       </div>
 
       <div className={styles.separate}>
-        <TimerCard/>
+        <TimerCard />
         <WeatherCard />
 
       </div>
+
+      <Link to='/content'> <button className={styles.btn}> <span> Browse </span>  </button> </Link>
+
+
     </div>
   )
 }

@@ -31,7 +31,7 @@ function Onboarding() {
 
             <div className={styles.bottomRightBtn}>
 
-                <button> <Link to='/home'> <span>  Next Page </span>   </Link>  </button>
+                <Link to='/home'>  <button> <span>  Next Page </span>  </button>  </Link>
 
             </div>
 

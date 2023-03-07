@@ -14,3 +14,29 @@
     margin-top: -13vh;
     margin-left: 4rem;
 }
+
+.btn {
+    position: absolute;
+    right: 4rem;
+    bottom: 2rem;
+    width: 179px;
+    height: 50.12px;
+    background: #148A08;
+    border-radius: 34.7771px;
+}
+
+.btn span {
+    width: 84px;
+    height: 22px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.5257px;
+    line-height: 92.2%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}

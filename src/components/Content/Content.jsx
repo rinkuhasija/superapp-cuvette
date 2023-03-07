@@ -3,6 +3,7 @@ import styles from './content.module.css'
 import Movies from '../../pages/Movies/Movies'
 import logo from '../../assets/round-img.png'
 import RowData from '../../constants/URLs'
+import { Link } from 'react-router-dom'
 
 
 function Content(props) {
@@ -13,7 +14,7 @@ function Content(props) {
             <div className={styles.topText}>
 
                 <h3> Super app</h3>
-                <div> <img src={logo}></img> </div>
+                <Link to='/home'> <div> <img src={logo}></img> </div>  </Link> 
 
             </div>
 
