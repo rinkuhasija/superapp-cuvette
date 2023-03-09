@@ -7,7 +7,7 @@ import CategoryChip from '../CategoryChip/CategoryChip';
 import SingleCardOne from '../SingleCardOne/SingleCardOne';
 
 function CategoryCard() {
-  
+
   const [activeOne, setActiveOne] = useState(false)
 
 
@@ -19,7 +19,7 @@ function CategoryCard() {
     }
 
     localStorage.setItem("categoryOne", "Action")
-    
+
 
     // const hello = document.getElementById('hello')
     // hello.innerText = 'SuperApp'
@@ -52,7 +52,14 @@ function CategoryCard() {
   return (
     <>
 
-      {activeOne ? <SingleCardOne name1={logo} /> : <div onClick={handleClick} className={classnames(styles.card, styles.cardOne)}>
+      {activeOne ? <div onClick={handleClick} className={classnames(styles.card, styles.cardOne)}>
+        <p> Action </p>
+
+        <div className={classnames(styles.imgBack, styles.imgOne)}>
+
+        </div>
+
+      </div> : <div onClick={handleClick} className={classnames(styles.card, styles.cardOne)}>
         <p> Action </p>
 
         <div className={classnames(styles.imgBack, styles.imgOne)}>

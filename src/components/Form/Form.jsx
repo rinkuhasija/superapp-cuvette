@@ -6,10 +6,12 @@ function Form() {
     const [formValues, setFromValues] = useState({ "name": "", "username": "", "email": "", "mobile": "" })
     const [check, setCheck] = useState(false);
 
+    //function to add values which the user inputs in the form and store  in formValues state variable
     function handleChange(e) {
         setFromValues({ ...formValues, [e.target.name]: e.target.value })
     }
 
+    //function to check whether form is filled completely before submitting
     const handleSubmit = (e) => {
         isFromSubmit();
 
@@ -23,10 +25,11 @@ function Form() {
         }
     }
 
+    //checkbox checked or not
     const handleCheck = () => {
         setCheck(true)        
     }
-
+    
     const isFromSubmit = () => {
         for (const value in formValues) {
             if (formValues[value].length == 0) {

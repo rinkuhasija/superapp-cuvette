@@ -6,6 +6,7 @@ import RowData from '../../constants/URLs'
 import { Link } from 'react-router-dom'
 
 
+//component for displaying movies poster fetched from API
 function Content(props) {
     return (
 
